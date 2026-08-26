@@ -25,3 +25,14 @@ The tool will list all processes currently using the file. Click an entry to hig
 You can _right-click_ the handle and select **Close Handle** to release the file (use with caution).
 
 ---
+
+#### Syntax for while loop in Bash cli
+
+```
+root@ubuntu24:~# > while true
+> do
+> curl -k -X 'POST' 'https://localhost:8443/api/encrypt' -H 'accept: application/json' -H 'Content-Type: application/json' -d '{ "value": "ABCDEF" }'
+> sleep 10
+> done
+```
+
