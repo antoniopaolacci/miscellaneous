@@ -97,3 +97,15 @@ OUTPUT
 54M     mysql
 102M    btmp.1
 ```
+
+## LINUX - cercare un testo in più file e directory
+
+ - -r Reads all files under each directory, recursively.
+ - -n Prints the line number prefixing each line of output.
+ - . Represents the current directory (you can replace this with a specific path /user/apaolacci)
+
+```
+[student@workstation]$ grep -rn "basic-user-pass" .
+
+./basic-user-pass.yaml:5:  name: basic-user-pass
+```
