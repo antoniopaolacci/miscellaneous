@@ -98,7 +98,7 @@ OUTPUT
 102M    btmp.1
 ```
 
-## LINUX - cercare un testo in più file e directory
+## LINUX - cercare un testo in più file e directory - grep
 
  - -r Reads all files under each directory, recursively.
  - -n Prints the line number prefixing each line of output.
@@ -109,3 +109,31 @@ OUTPUT
 
 ./basic-user-pass.yaml:5:  name: basic-user-pass
 ```
+## visualizzare n-linee dopo un match di ricerca - grep
+
+```
+[student@workstation]$ grep -A4 "limits" .
+
+Limits:
+  cpu:     200m
+  memory:  256Mi
+
+```
+
+## Eclipse and node_modules folder
+
+Una delle impostazioni che consentono di risparmiare tempo e risorse computazionali, configurabile nei _settings_ di Eclipse, consiste nel limitare la ricerca di file al solo codice sorgente, escludendo le cartelle contenenti molti file (es: node_modules di framework moderni basati su javascript).
+
+1. On the Eclipse File Explorer, right-click on the folder that you want to exclude and choose "Properties".
+   On the "Resource" screen, mark a folder Derived. The derived folder is excluded from the search by default.
+
+3. On the Eclipse File Explorer:
+   (1) select the project -> Properties -> Resource Filters.
+   (2) Click Add,
+   (3) choose "Exclude All" filter type,
+   (3) choose applies to "Folders" and checkmark "All Children (recursive)", and 
+   (4) give name (or pattern) of the folder to exclude.
+
+![image](https://github.com/antoniopaolacci/miscellaneous/blob/master/img/node_modules.png)
+
+
