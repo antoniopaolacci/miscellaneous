@@ -134,6 +134,6 @@ Una delle impostazioni che consentono di risparmiare tempo e risorse computazion
    (3) choose applies to "Folders" and checkmark "All Children (recursive)", and 
    (4) give name (or pattern) of the folder to exclude.
 
-![image](https://github.com/antoniopaolacci/miscellaneous/blob/master/img/node_modules.png)
+![image](https://github.com/antoniopaolacci/miscellaneous/blob/main/img/node_modules.png)
 
 
