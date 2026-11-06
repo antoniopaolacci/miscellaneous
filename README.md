@@ -141,3 +141,17 @@ Una delle impostazioni che consentono di risparmiare tempo e risorse computazion
 ```
 Tenere premuto Alt e digita 126 sul tastierino numerico
 ```
+
+## Openshift, come chiedere la definizione (spiegazione) di un oggetto Kubernetes Vanilla oppure Custom Openshift 
+
+```
+oc explain Pod
+
+Pod is a collection of containers that can run on a host. This resource is
+    created by clients and scheduled onto hosts.
+
+oc explain Service
+oc explain BuildConfig
+...
+
+```
