@@ -136,4 +136,8 @@ Una delle impostazioni che consentono di risparmiare tempo e risorse computazion
 
 ![image](https://github.com/antoniopaolacci/miscellaneous/blob/main/img/node_modules.png)
 
+## ~TILDE un metodo universale (unix, windows) per inserirla
 
+```
+Tenere premuto Alt e digita 126 sul tastierino numerico
+```
